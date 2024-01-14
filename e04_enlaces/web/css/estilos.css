@@ -1,0 +1,234 @@
+/* REGLAS GENERALES PARA TODAS LAS PAGINAS */
+@font-face {
+    font-family: 'Rubik';
+    src: url("../fonts/RED\ BURGER.otf");
+}
+@font-face {
+    font-family: 'Laika';
+    src: url("../fonts/LAIKA.otf");
+}
+@font-face {
+    font-family: 'Morris';
+    src: url("../fonts/MorrisRomanBlack.otf");
+}
+@font-face {
+    font-family: 'Machine';
+    src: url("../fonts/Type\ Machine.ttf");
+}
+
+body {
+    max-width: 50em;
+    margin: 0 auto;
+    background-color: black;
+}
+
+.contenedor,
+.contenedor2 {
+    box-shadow: 0 0 40px #84ea52;
+    border-radius: 16px;
+}
+
+section.contenedor {
+    background-color: #84ea52;
+    height: 600px;
+    margin-top: 5rem;
+}
+
+.contenedor2 {
+    background-color: #84ea52;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.centrar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.w20 {
+    width: 20%;
+}
+
+.w30 {
+    width: 30%;
+}
+
+.w40 {
+    width: 40%;
+}
+
+.w50 {
+    width: 50%;
+}
+
+.w100 {
+    width: 100%;
+}
+
+/* HEADER ENTERO */
+
+header {
+    display: flex;
+    border-bottom: solid 3px;
+}
+
+.logo {
+    text-align: center;
+    object-fit: contain;
+    mix-blend-mode: color-burn;
+}
+
+.titulo,
+.titulo a {
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Rubik';
+}
+
+.inicio {
+    text-align: center;
+    padding-left: 0px;
+    list-style: none;
+    font-size: 23px;
+    font-family: 'Laika';
+}
+
+.padrig {
+    padding-right: 3em
+}
+
+.inicio>li {
+    float: left;
+}
+
+.inicio li a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 12px;
+    display: block;
+}
+
+.inicio li ul {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+    list-style: none;
+    padding: 0px;
+    text-align: left;
+}
+
+.inicio li:hover>ul {
+    display: block;
+    box-shadow: 0 0 35px rgb(255, 0, 0);
+    border-radius: 10px;
+    background-color: #e6bd38;
+}
+
+.inicio li ul li {
+    position: relative;
+    height: 40px;
+}
+
+.inicio li ul li a:hover {
+    color: white;
+}
+
+/* PRESENTACION EN LA HOME */
+
+.presentacion {
+    text-align: center;
+    font-size: 22px;
+    padding: 0px 10px;
+    margin-top: 13%;
+}
+
+/* SECTIONS EN LA PRINCIPAL */
+h2, h3{
+    font-family: 'Laika';
+    text-align: center;
+}
+
+.descripcion {
+    display: inline-flex;
+    padding: 0px 20px;
+}
+
+div.descripcion a {
+    width: 150%;
+}
+
+div.descripcion img {
+    width: 100%;
+}
+
+.informacion {
+    padding: 0px 10px;
+}
+
+.informacion p {
+    margin-top: 0px;
+}
+
+p, ol {
+    font-family: 'Machine';
+}
+
+div a.moraWidth {
+    width: 245%;
+}
+
+.cantante {
+    width: 100%;
+    object-fit: contain;
+    float: left;
+    border-radius: 2em;
+}
+
+.discografia {
+    display: inline-flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.discografia:nth-child(3) {
+    padding-bottom: 40px;
+}
+
+ol {
+    list-style: none;
+    padding: 0px;
+    display: inline-block;
+    margin: 0px;
+}
+
+ol li {
+    border-bottom: 1px solid;
+    max-width: 15em;
+}
+
+.btn {
+    border: none;
+    color: black;
+    padding: 14px 28px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.success {
+    box-shadow: 0 0 35px rgb(255, 0, 0);
+    border-radius: 10px;
+    background-color: #e6bd38;
+}
+
+.success:hover {
+    background: #e68a00;
+    color: white;
+}
