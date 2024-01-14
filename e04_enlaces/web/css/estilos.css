@@ -127,7 +127,7 @@ h1 {
     display: block;
     box-shadow: 0 0 35px rgb(255, 0, 0);
     border-radius: 10px;
-    background-color: #e6bd38;
+    background-color: #000;
 }
 
 .inicio li ul li {
@@ -225,7 +225,6 @@ ol li {
 .success {
     box-shadow: 0 0 35px rgb(255, 0, 0);
     border-radius: 10px;
-    background-color: #e6bd38;
 }
 
 .success:hover {
